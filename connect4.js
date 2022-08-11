@@ -206,6 +206,7 @@ const checkForWin = () => {
   }
 };
 
+//WORK IN PROGRESS: resetGame not fully functional, doesn't reset winningPieces, or the background color.No user way to reset game.
 const resetGame = () => {
   let pieces = document.querySelectorAll(".piece");
   for (let x = 0; x < pieces.length; x++) pieces[x].remove();
